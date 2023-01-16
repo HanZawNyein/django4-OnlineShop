@@ -29,3 +29,4 @@
   - Building the payment process
   - Exporting orders to CSV files
     - Adding custom actions to the administration site
+  - Extending the administration site with custom views
