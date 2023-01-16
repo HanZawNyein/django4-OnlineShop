@@ -30,3 +30,5 @@
   - Exporting orders to CSV files
     - Adding custom actions to the administration site
   - Extending the administration site with custom views
+  - Generating PDF invoices dynamically
+    - Creating a PDF template
