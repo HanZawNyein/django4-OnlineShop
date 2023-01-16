@@ -16,4 +16,4 @@
 - Creating shopping cart views
   - Adding items to the cart
   - Adding products to the cart
-  
+- Creating a context processor for the current cart
