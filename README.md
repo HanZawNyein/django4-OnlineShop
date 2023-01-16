@@ -13,3 +13,7 @@
         For better performance use a cache-based session engine. Django supports Memcached out of the box and you can find third-party cache backends for Redis and other cache systems.
 
 - Storing shopping carts in sessions
+- Creating shopping cart views
+  - Adding items to the cart
+  - Adding products to the cart
+  
