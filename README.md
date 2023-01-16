@@ -17,3 +17,8 @@
   - Adding items to the cart
   - Adding products to the cart
 - Creating a context processor for the current cart
+
+### Registering customer orders
+- Creating order models
+- Including order models in the administration site
+- Creating customer orders
