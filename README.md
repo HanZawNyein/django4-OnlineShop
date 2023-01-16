@@ -22,3 +22,10 @@
 - Creating order models
 - Including order models in the administration site
 - Creating customer orders
+
+### Managing Payments and Orders
+- Integrating a payment gateway
+  - Creating a Stripe account
+  - Building the payment process
+  - Exporting orders to CSV files
+    - Adding custom actions to the administration site

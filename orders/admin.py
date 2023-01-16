@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import Order, OrderItem
+from payment.admin import export_to_csv
 
 # Register your models here.
 
@@ -15,3 +16,4 @@ class OrderAdmin(admin.ModelAdmin):
                     'address', 'postal_code', 'city', 'paid', 'created', 'updated']
     list_filter = ['paid', 'created', 'updated']
     inlines = [OrderItemInline]
+    actions = [export_to_csv]
