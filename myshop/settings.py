@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'shop.apps.ShopConfig'
+    'shop.apps.ShopConfig',
+    'cart.apps.CartConfig',
+    'orders.apps.OrdersConfig',
+    'payment.apps.PaymentConfig'
 ]
 
 MIDDLEWARE = [
@@ -64,6 +67,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
+                'cart.context_processors.cart',
             ],
         },
     },
@@ -123,3 +128,15 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MEDIA_URL = 'media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+CART_SESSION_ID = 'cart'
+
+# Stripe settings
+STRIPE_PUBLISHABLE_KEY = '' # Publishable key
+STRIPE_SECRET_KEY = '' # Secret key
+STRIPE_API_VERSION = '2022-08-01'
+
+STATIC_ROOT = BASE_DIR / 'static'
