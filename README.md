@@ -40,3 +40,12 @@
 - Applying coupons to orders
   - Creating coupons for Stripe Checkout
 - Adding coupons to orders on the administration site and to PDF invoices
+
+### Adding Internationalization to Your Shop
+- Internationalization with Django
+- Preparing your project for internationalization
+- Translating Python code
+- Translating templates
+- Using the Rosetta translation interface
+- Adding a language prefix to URL patterns
+- Allowing users to switch language
