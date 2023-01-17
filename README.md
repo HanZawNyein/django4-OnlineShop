@@ -39,3 +39,4 @@
 - Applying a coupon to the shopping cart
 - Applying coupons to orders
   - Creating coupons for Stripe Checkout
+- Adding coupons to orders on the administration site and to PDF invoices
