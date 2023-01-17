@@ -38,3 +38,4 @@
   - Building the coupon model
 - Applying a coupon to the shopping cart
 - Applying coupons to orders
+  - Creating coupons for Stripe Checkout
