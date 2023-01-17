@@ -32,3 +32,9 @@
   - Extending the administration site with custom views
   - Generating PDF invoices dynamically
     - Creating a PDF template
+
+### Extending Your Shop
+- Creating a coupon system
+  - Building the coupon model
+- Applying a coupon to the shopping cart
+- Applying coupons to orders
